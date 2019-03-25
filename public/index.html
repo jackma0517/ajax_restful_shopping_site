@@ -1,0 +1,47 @@
+<!-- Jack & Blake assignment 1 index -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UBC Bookstore</title>
+	<script src="http://ece.ubc.ca/~kumseok/src/cpen400a/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="http://ece.ubc.ca/~kumseok/src/cpen400a/test-4.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header" class="header">
+        <img class = header_images id="logo" src="images/UBC_logo.png" />
+        <img class = header_images id="banner" src="images/UBC_bookstore_logo.jpg"/>
+    </div>
+
+    <div id="content">
+        <div id="menuView">
+        </div>
+
+        <div id=productView>
+        </div>
+
+        <button id = "btn-show-cart" onClick = "showCart(store)">Show Cart</button>
+    </div>
+    <div id="modal">
+        <div id="modal-content"></div>
+        <button id = "btn-hide-cart" onClick = "hideCart()">Hide Cart</button>
+    </div>
+    <div id="footer">
+        <div>
+            <p>UBC Bookstore
+            <p>6200 University Blvd
+            <p>Vancouver, BC, V6T 1Z4, Canada
+            <p>Tel +1.604 822-2665
+            <p>br>Email ubc.bookstore@ubc.ca
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
